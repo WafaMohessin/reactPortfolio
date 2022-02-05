@@ -1,7 +1,7 @@
-import timedcodingquiz from "./images/timed-coding-quiz.png";
-import passwordGenerator from "./images/password-generator.png";
+import timedCodQuiz from "../images/timedCodeQuiz.png.png";
+import passwordGenerator from "../images/password-generator.png";
 
-import health4u from "./images/health4u.png";
+import health4u from "./health4u.png";
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
