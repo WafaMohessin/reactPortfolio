@@ -20,7 +20,7 @@ function Project() {
 
                             <div className="showcase-right-img">
                                 <a href="https://github.com/WafaMohessin/password-generator-august13"/>
-                                <img src={passwordGenerator} alt="Screenshot of password generator webpage"/>
+                                <img src= "../images/passwordGenerator.png"  /* {passwordGenerator}  */alt="Screenshot of password generator webpage"/>
                                 <a href="https://github.com/WafaMohessin/password-generator-august13"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
@@ -33,7 +33,7 @@ function Project() {
 
                             <div className="showcase-right-img">
                                 <a href="https://github.com/WafaMohessin/timed-coding-quiz"/>
-                                <img src={timedCodeQuiz} alt="Screenshot of timedCodeQuiz webpage"/>
+                                <img src= "../images/ttimedCodeQuiz.png"  /* {timedCodeQuiz} */ alt="Screenshot of timedCodeQuiz webpage"/>
                                 <a href="https://github.com/WafaMohessin/timed-coding-quiz"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
@@ -46,7 +46,7 @@ function Project() {
 
                             <div className="showcase-right-img">
                                 <a href="https://github.com/WafaMohessin/health4u"/>
-                                <img src={health4u} alt="Screenshot of health4u webpage"/>
+                                <img src= "../images/health4u.png" /*  {health4u}  */alt="Screenshot of health4u webpage"/>
                                 <a href="https://github.com/WafaMohessin/health4u"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
