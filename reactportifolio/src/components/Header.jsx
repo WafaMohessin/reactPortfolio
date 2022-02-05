@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-function Navigation() {
+function Header() {
     return (
       <div className="navigation">
         <nav className="navbar navbar-expand navbar-dark bg-dark">
@@ -35,4 +35,4 @@ function Navigation() {
     )
 }
 
-export default Navigation;
+export default Header;
