@@ -1,9 +1,9 @@
-import timedQuiz from "./timed-quiz.png";
-import passwordGenerator from "./password-generator.png";
-import workScheduler from "./work-scheduler.png";
-import covidTracker from "./covid-tracker.png";
-import gcaDashboard from "./gca-dashboard.png";
-import weatherApp from "./weather-app.png";
+import timedcodingquiz from "./images/timed-coding-quiz.png";
+import passwordGenerator from "./images/password-generator.png";
+
+import health4u from "./images/health4u.png";
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Project() {
