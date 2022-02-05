@@ -50,6 +50,14 @@ function Project() {
                                 <a href="https://github.com/WafaMohessin/health4u"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
+                        </div>
+                </div>
+            </div>   
+        </div>
+    )
+}
+
+export default Project
 
 
 
