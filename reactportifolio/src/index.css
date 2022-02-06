@@ -19,9 +19,12 @@ code {
     monospace;
 }
 
+.navigation{
+  margin-top: 100px;
+}
+
 .container{
   margin-left: 30%;
-  
 }
 
 nav{
@@ -70,26 +73,28 @@ nav ul a{
 }
 
 .mainName {
+  margin-top: 40px;
   font-family: cursive;
   font-weight: bold;
   font-style: italic;
   font-size: 26px;
-  line-height: 24px;
+  line-height: 28px;
 }
+
 
 .side-bar img{
   border-radius:200px;
   margin-top:25px;
   margin-left: auto;
   margin-right: auto;
-  width:70%;
+  width:60%;
 }
 
 .contact-icons{
   font-family: cursive;
   font-size: 26px;
   color: black;
-  padding-top: 30px;
+  padding-top: 20px;
   margin-left: 110px;
   margin-right: 10px;
   align-items: center;
@@ -97,5 +102,77 @@ nav ul a{
 
 .side-bar a{
   padding-left: 15px;
-  padding-right: 15px;
+}
+
+.about{
+  margin-top: 90px;
+  margin-left: 40px;
+  color:black;
+  text-align: justify;
+}
+
+.about p{
+  margin-top: 20px;
+}
+
+.showcase-right{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+.showcase-right-text{
+  flex-basis: 48%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  order: 1;
+  padding-left: 2%;
+}
+.showcase-right-img {
+  flex-basis: 28%;
+  order: 2;
+  margin-left: 17%;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.showcase-right img:hover{
+  transform: scale(1.2);
+}
+img{
+  width: 200px;
+}
+
+#container{
+  margin-top: 70px;
+  margin-left: 600px;
+}
+
+.contact{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.contact ul{
+  display: flex;
+  flex-basis: 50%;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+.contact li a{
+  text-decoration: none;
+}
+
+.contact h1{
+  flex-basis: 80%;
+}
+
+.footer{
+  font-size: 16px;
+ 
 }

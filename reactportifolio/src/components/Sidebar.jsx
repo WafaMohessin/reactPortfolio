@@ -12,8 +12,8 @@ function Sidebar() {
             <div className="contact-icons">
                 <p>Get in Touch</p>
                 <a href="mailto:wafamohessin@gmail.com"> <FontAwesomeIcon icon="envelope" /></a>
-                <a href="https:https://www.linkedin.com/in/wafa-mohessin-7145a047/"> <FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
-                <a href="https:https://github.com/WafaMohessin"><FontAwesomeIcon icon={["fab", "github"]} /></a>
+                <a href="https://www.linkedin.com/in/wafa-mohessin-7145a047/"> <FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                <a href="https://github.com/WafaMohessin"><FontAwesomeIcon icon={["fab", "github"]} /></a>
             </div>
             {/* <nav className="sidebar-nav">
                 <ul>
