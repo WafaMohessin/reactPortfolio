@@ -8,7 +8,7 @@ function Contact() {
                         <form>
                             <div className="mb-3">
                                 <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
-                                <input type="input" className="form-control" id="exampleFormControlInput1" placeholder="John Doe"  required/>
+                                <input type="input" className="form-control" id="exampleFormControlInput1" placeholder="Moh Ali"  required/>
                             </div>
 
                             <div className="mb-3">

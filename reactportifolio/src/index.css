@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 100vw;
+  min-height: 100vh;
+
 }
 
 code {
@@ -13,6 +16,10 @@ code {
 }
 
 nav{
-  margin: 10px;
+  margin: 15px;
   position: relative;
+}
+
+.container{
+  margin-left: 35%;
 }

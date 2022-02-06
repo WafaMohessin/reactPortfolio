@@ -1,7 +1,7 @@
-import timedCodQuiz from "../images/timedCodeQuiz.png.png";
-import passwordGenerator from "../images/password-generator.png";
+import TimedCodeQuiz from "./../images/timedCodeQuiz.png";
+import PasswordGenerator from "./../images/passwordGenerator.png";
 
-import health4u from "./health4u.png";
+import Health4u from "./../images/health4u.png";
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,20 +20,20 @@ function Project() {
 
                             <div className="showcase-right-img">
                                 <a href="https://github.com/WafaMohessin/password-generator-august13"/>
-                                <img src= "../images/passwordGenerator.png"  /* {passwordGenerator}  */alt="Screenshot of password generator webpage"/>
+                                <img src= {PasswordGenerator} alt="Screenshot of password generator webpage"/>
                                 <a href="https://github.com/WafaMohessin/password-generator-august13"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
 
                         <section className="showcase-right">
                         <div className="showcase-right-text">
-                            <h3>timed-coding-quiz</h3>
+                            <h3>Timed Code Quiz</h3>
                             <p>In this project, javascript has been utilized to create timed coding quiz to challange your understanding in Javascript field.</p>
                             </div>
 
                             <div className="showcase-right-img">
                                 <a href="https://github.com/WafaMohessin/timed-coding-quiz"/>
-                                <img src= "../images/ttimedCodeQuiz.png"  /* {timedCodeQuiz} */ alt="Screenshot of timedCodeQuiz webpage"/>
+                                <img src= {TimedCodeQuiz} alt="Screenshot of timedCodeQuiz webpage"/>
                                 <a href="https://github.com/WafaMohessin/timed-coding-quiz"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
@@ -46,7 +46,7 @@ function Project() {
 
                             <div className="showcase-right-img">
                                 <a href="https://github.com/WafaMohessin/health4u"/>
-                                <img src= "../images/health4u.png" /*  {health4u}  */alt="Screenshot of health4u webpage"/>
+                                <img src= {Health4u} alt="Screenshot of health4u webpage"/>
                                 <a href="https://github.com/WafaMohessin/health4u"><FontAwesomeIcon icon={["fab", "github"]} /> </a>
                             </div>
                         </section>
