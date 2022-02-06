@@ -7,4 +7,4 @@ I am using my react skill to buil my portfolio.
 - Javascript
 
 # Screen Shot
-![Wafa Mohessin](././image/Wafa.png)
+![Wafa Mohessin](./image/Wafa.png)
