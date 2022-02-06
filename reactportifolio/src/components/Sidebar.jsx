@@ -2,7 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Sidebar() {
     return (
+        
         <div className="side-bar">
+            
             <img src="https://avatars.githubusercontent.com/u/87388655?v=4" alt="Wafa Avatar Picture" />
             <div className="sidebar-text">
                 <p className="mainName">Wafa Mohessin</p>
@@ -24,6 +26,7 @@ function Sidebar() {
                 </ul>
             </nav>  */}    
         </div>
+        
     )
 }
 
