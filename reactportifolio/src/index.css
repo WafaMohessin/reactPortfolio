@@ -1,3 +1,6 @@
+*{
+  margin: 0%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,8 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 
 }
 
@@ -16,10 +19,36 @@ code {
 }
 
 nav{
-  margin: 15px;
-  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 40%;
+  padding-left: 35%;
+
+  
 }
 
-.container{
-  margin-left: 35%;
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  
+}
+
+nav ul li{
+  padding-right: 20px;
+  font-weight: bold;
+  
+}
+
+nav ul a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.side-bar{
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  box-sizing: content-box;
 }
